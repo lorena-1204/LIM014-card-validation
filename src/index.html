@@ -2,13 +2,80 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Tarjeta de crédito válida SJ</title>
+    <link rel="stylesheet" href="style.css" /> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+    <nav class="encabezado">
+      <ul>
+        <li class="menu"><a class="menulist" href="Inicio">Inicio</a></li>
+        <li class="menu"><a class="menulist" href="Suscripción">Suscripción</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <main>
+      
+      <section>
+    
+        <div class="container-first">
+          <h1 class="title">Bienvenid@s  <br>
+            E.L.F</h1><p>Un lugar donde podrás conocer más de Super Junior, tus Idol favoritos</p>
+        </div>
+      </section>
+  
+      <section>
+        <!-- Página de la tarjeta -->
+        <nav class="conteiner-second">
+        <h1 class="text-pay">Para poder proceder con la suscripción, por favor valide su tarjeta</h1>
+          
+          <div class="form-card">
+            
+          <form class="form">
+<div> 
+          <label for="card-number">Número de tarjeta</label>
+          <input type="text" required name="numero"  id="card-number" maxlength="16" placeholder="**** **** **** ****"> 
+
+          <label for="name-on-card">Nombre en la tarjeta</label>
+          <input type="text" name="name" id="name-on-card" placeholder="Nombres y apellidos"> 
+
+          <label for="date">Expira</label>
+          <input type="text" name="date" id="date" placeholder=" 04 24" maxlength="4"> 
+
+          <label for="cvc">CVC</label>
+          <input type="text" name="CVC" id="cvc" placeholder="1 2 3" maxlength="3"> 
+          
+        </div>
+        
+          <button type="submit" class="validar" id="validar">Validar</button>
+          </form>
+          
+          </div>
+        </nav>
+      </section>
+<!--  -->
+      <section>
+        <div class="container-finish">
+        <p>Su Tarjeta es Válida; bienvenido a nuestra comunidad de fans.</p>
+      </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <nav class="pie">
+        <a class="red" href="https://www.facebook.com/superjunior" target="blank">Facebook
+        </a>
+        <a class="red" href="https://www.instagram.com/superjunior/?hl=es-la" target="blank">Instagram</a>
+        <a class="red" href="https://www.youtube.com/user/SUPERJUNIOR" target="blank">YouTube</a>
+
+      </nav>
+     
+  
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

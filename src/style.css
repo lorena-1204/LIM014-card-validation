@@ -1,0 +1,131 @@
+*{
+    margin: auto;
+}
+
+header{
+    background-image: url("/src/assets/imagenes/logo.png");
+    background-size: 23%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: darkblue;
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    display: table-cell;
+    padding: 50px;
+}
+
+.menulist{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/*main*/
+/*selection- uno*/
+.container-first{
+    background: url("/src/assets/imagenes/sj_15años_1.webp");
+    width: 100%;
+    height:550px;
+    background-size: cover;    
+}
+.title{
+    color:#5374b7;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center; 
+}
+p{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+/*selection - dos*/
+.conteiner-second{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.text-pay{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.form-card{
+    background-image: url("/src/assets/imagenes/dibu.webp");
+    background-size: 50%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border: 3px solid darkblue;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; /*permite que la imagen sean responsive*/
+    padding:30px
+}
+form > div > input {
+    border: 1px;
+    background: rgb(224, 220, 220);
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 1em;
+    font-size: 1em;
+    display: block; 
+    width: 400px;
+    height: 40px;
+    outline: none; /*quita el cuadrado que aprecem,cuando se da click*/
+    font-size: 15px;
+    text-align: center;
+    
+}
+label{
+    font-size: 18px;
+}
+
+
+#date{
+    width: 200px;
+    height: 35px;
+}
+#cvc{
+    width: 200px;
+    height: 35px;
+}
+
+#validar{
+    background-color: blue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+/*selection - tres*/
+.container-finish{
+    background: url("/src/assets/imagenes/Sjthanks.jpg");
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    color:black;
+}
+
+
+
+/*footer*/
+.pie{
+    background: darkblue;
+}
+.red{
+   color:white;
+   padding:20px;
+   text-decoration: none;
+}
