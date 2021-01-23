@@ -1,13 +1,31 @@
 import validator from './validator.js';
-const getData = function(){
-    //value:devuelve un array cuyos elementos son valores de propiedades enumarables que se encuentran en el objeto. El orden de las propiedades es el mismo que el dado cuando se recorre el objeto de forma manual.
-    let cardNumber= document.getElementById("card-number").value;
-    let nameOnCard= document.getElementById("name-on-card").value;
-    let date= document.getElementById("date").value;
-    let cvc= document.getElementById("cvc").value;
 
-    let buttonValidar= document.getElementById("validar");
-    buttonValidar.addEventListener("click", validator.isValid(cardNumber));
+const final = document.getElementById("final");
+const button = document.getElementById("validar");
+const tarjetaPrincipal = document.getElementById("tarjetaPrincipal");
 
-}
-console.log(validator);
+
+
+
+button.addEventListener("click",()=>{
+    
+    let cardNumber= document.getElementById("cardNumber").value;
+
+    let validador=validator.isValid(cardNumber);
+
+    //let nameCard= document.getElementById("nameCard").value; 
+
+    if (validador === true && cardNumber !==""){
+        tarjetaPrincipal.classList.replace("mostrar","ocultar");
+        final.classList.replace("ocultar","mostrar");
+    }
+    else if(cardNumber ===""){
+        alert("Ingrese el número de la tarjeta");
+    }
+    else {
+        alert("el número de su tarjeta no es válida");
+    }
+    let cardCorrect= document.getElementById("cardCorrect"); 
+
+    cardCorrect.value = validator.maskify(cardNumber);
+});

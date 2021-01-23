@@ -1,7 +1,7 @@
 *{
     margin: auto;
 }
-
+/*Encabezado, logo y menu*/
 header{
     background-image: url("/src/assets/imagenes/logo.png");
     background-size: 23%;
@@ -9,26 +9,17 @@ header{
     background-repeat: no-repeat;
     background-color: darkblue;
     width: 100%;
-    height: 100%;
+    height: 125px;
 }
 
-.menu{
-    display: table-cell;
-    padding: 50px;
-}
-
-.menulist{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-}
-/*main*/
-/*selection- uno*/
+/*página de inicio */
 .container-first{
     background: url("/src/assets/imagenes/sj_15años_1.webp");
     width: 100%;
     height:550px;
-    background-size: cover;    
+    background-size: cover;   
+    margin-bottom: 70px; 
+    padding-top: 50px;
 }
 .title{
     color:#5374b7;
@@ -36,24 +27,24 @@ header{
     font-family: 'Lobster', cursive;
     text-align: center; 
 }
-p{
+.parrafo{
     font-size: 22px;
     font-family:'Times New Roman', Times, serif;
     text-align: center;
+    margin-top: 40px;
 }
 
-/*selection - dos*/
+/*página de Suscripvión - tarjeta de credito*/
 .conteiner-second{
     width: 100%;
     height: 500px;
     margin-top: 30px;
 }
 
-.text-pay{
+h1{
     font-size: 24px;
-    text-align: center;
+    text-align: center ;
     margin-bottom: 30px;
-
 }
 .form-card{
     background-image: url("/src/assets/imagenes/dibu.webp");
@@ -67,9 +58,10 @@ p{
     margin-left: auto;
     margin-right: auto;
     max-width: 100%; /*permite que la imagen sean responsive*/
-    padding:30px
+    padding:30px;
+    font-weight: bold;
 }
-form > div > input {
+form> div > input {
     border: 1px;
     background: rgb(224, 220, 220);
     border-radius: 10px;
@@ -79,26 +71,22 @@ form > div > input {
     display: block; 
     width: 400px;
     height: 40px;
-    outline: none; /*quita el cuadrado que aprecem,cuando se da click*/
+    outline: none; /*quita el cuadrado que aprece,cuando se pasa el cursor click*/
     font-size: 15px;
     text-align: center;
     
 }
 label{
     font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
 }
-
-
-#date{
+#date, #cvc{
     width: 200px;
     height: 35px;
-}
-#cvc{
-    width: 200px;
-    height: 35px;
-}
+} 
 
-#validar{
+.boton{
     background-color: blue;
     color: white;
     width: 150px;
@@ -108,24 +96,61 @@ label{
     font-size: 24px;
 }
 
-/*selection - tres*/
+
+/*Tarjeta válida*/
 .container-finish{
-    background: url("/src/assets/imagenes/Sjthanks.jpg");
+    background: url(/src/assets/gif/light.gif); 
+    background-position: center center;
+    background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 300px;
+    width: 550px;
+    height: 400px;
     background-size: cover;
-    color:black;
+    color: black;
+    font-size: 22px;
+}
+.correct{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border:5px solid rgb(121, 121, 255);
+    border-radius: 5px;
+    text-align: center;
+    display: table;
 }
 
-
-
-/*footer*/
-.pie{
+footer{
     background: darkblue;
+    height: 60px;
 }
-.red{
-   color:white;
-   padding:20px;
-   text-decoration: none;
+
+/* Enlaces: menú y pie de página*/
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
 }
+.menu{
+    display:inline-block; /*para que el elemento parrafo deje de ser un elemeto de bloque y se conviertta en uno de linea*/
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.redes{
+    display:inline-block; /*para que el elemento parrafo deje de ser un elemeto de bloque y se conviertta en uno de linea*/
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display:block;
+}
+
+
+
+

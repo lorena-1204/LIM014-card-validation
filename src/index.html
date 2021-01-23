@@ -9,69 +9,71 @@
   </head>
   <body>
     <header>
+      
     <nav class="encabezado">
-      <ul>
-        <li class="menu"><a class="menulist" href="Inicio">Inicio</a></li>
-        <li class="menu"><a class="menulist" href="Suscripción">Suscripción</a></li>
-      </ul>
+     <p class="menu" ><a href="#banner">Inicio</a></p>
+     <p class="menu"><a href="#tarjetaPrincipal">Suscribirse</a></p>
     </nav>
     </header>
 
-    <main>
-      
-      <section>
-    
+      <!-- logo y menú -->
+      <section >
+        <article id="banner">
         <div class="container-first">
           <h1 class="title">Bienvenid@s  <br>
-            E.L.F</h1><p>Un lugar donde podrás conocer más de Super Junior, tus Idol favoritos</p>
+            E.L.F</h1><p class="parrafo">Un lugar donde podrás conocer más de Super Junior, tus Idol favoritos</p>
         </div>
+      </article>
       </section>
-  
-      <section>
-        <!-- Página de la tarjeta -->
-        <nav class="conteiner-second">
-        <h1 class="text-pay">Para poder proceder con la suscripción, por favor valide su tarjeta</h1>
+
+  <!-- Tajeta de credito -->
+    <main>
+      <section class="conteiner-second mostrar" id="tarjetaPrincipal">
+        
+        <h1 class="text-suscripción">Para poder proceder con la suscripción, por favor valide su tarjeta</h1>
           
-          <div class="form-card">
-            
+        <div class="form-card">
           <form class="form">
-<div> 
+        <div> 
+          
           <label for="card-number">Número de tarjeta</label>
-          <input type="text" required name="numero"  id="card-number" maxlength="16" placeholder="**** **** **** ****"> 
+          <input type="text" required name="numero"  id="cardNumber" maxlength="16" placeholder="**** **** **** ****"> 
+        
 
           <label for="name-on-card">Nombre en la tarjeta</label>
-          <input type="text" name="name" id="name-on-card" placeholder="Nombres y apellidos"> 
+          <input type="text" name="name" id="nameCard" placeholder="Nombres y apellidos"> 
 
-          <label for="date">Expira</label>
+          <label for="date"> Fecha de expiración</label>
           <input type="text" name="date" id="date" placeholder=" 04 24" maxlength="4"> 
 
           <label for="cvc">CVC</label>
           <input type="text" name="CVC" id="cvc" placeholder="1 2 3" maxlength="3"> 
-          
         </div>
         
-          <button type="submit" class="validar" id="validar">Validar</button>
+          <button type="submit"  class="boton" id="validar">Validar</button>
           </form>
-          
-          </div>
-        </nav>
-      </section>
-<!--  -->
+        </div>
+    </section>
+    </main>
+      
+<!-- Tarjeta Valida -->
       <section>
-        <div class="container-finish">
-        <p>Su Tarjeta es Válida; bienvenido a nuestra comunidad de fans.</p>
+        <div class="container-finish ocultar" id="final">
+        <h1 id= hiName >Su tarjeta es válida; bienvenido a nuestra comunidad de fans.</h1>
+        <input type="text" class="correct" id="cardCorrect"> 
       </div>
       </section>
 
-    </main>
-
     <footer>
-      <nav class="pie">
-        <a class="red" href="https://www.facebook.com/superjunior" target="blank">Facebook
-        </a>
-        <a class="red" href="https://www.instagram.com/superjunior/?hl=es-la" target="blank">Instagram</a>
-        <a class="red" href="https://www.youtube.com/user/SUPERJUNIOR" target="blank">YouTube</a>
-
+      <!-- redes sociales  -->
+      <nav>
+        <p class="redes">
+        <a href="https://www.facebook.com/superjunior" target="blank">Facebook
+        </a></p>
+        <p class="redes">
+        <a href="https://www.instagram.com/superjunior/?hl=es-la" target="blank">Instagram</a> </p>
+        <p class="redes">
+        <a href="https://www.youtube.com/user/SUPERJUNIOR" target="blank">YouTube</a></p>
       </nav>
      
   
