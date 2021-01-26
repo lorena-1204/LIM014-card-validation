@@ -65,7 +65,7 @@ h1{
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 100%; /*permite que la imagen sean responsive*/
+    max-width: 100%; 
     padding:30px;
 }
 form > div > input {
@@ -77,7 +77,7 @@ form > div > input {
     display: block; 
     width: 400px;
     height: 40px;
-    outline: none; /*quita el cuadrado que aprece,cuando se pasa el cursor click*/
+    outline: none; 
     font-size: 15px;
     text-align: center;
     
@@ -151,17 +151,18 @@ a{
     font-weight: bold;
 }
 .menu{
-    display:inline-block; /*para que el elemento parrafo deje de ser un elemeto de bloque y se conviertta en uno de linea*/
+    display:inline-block; 
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 50px;
 }
 .redes{
-    display:inline-block; /*para que el elemento parrafo deje de ser un elemeto de bloque y se conviertta en uno de linea*/
+    display:inline-block;
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 20px;
 }
+
 /*otros detalles*/
 .ocultar{
     display: none;

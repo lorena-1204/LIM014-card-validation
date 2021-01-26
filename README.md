@@ -8,7 +8,7 @@ En cuanto al diseño, se decidio el predominio del color azul por ser el color o
 
 ### Prototipo en Figma:
 
-![Prototipo](https://ibb.co/hK1BBDz)
+![Prototipo](https://i.ibb.co/J5H7mJZ/Untitled.jpg)
 
 ## Índice
 
