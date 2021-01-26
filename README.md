@@ -1,5 +1,15 @@
 # Tarjeta de crédito válida
 
+## Realización del Proyecto
+### Página:
+Este sitio Web esta destinado a las E.L.F (Ever Lasting Friends), las fans del grupo surcoreano "Super Junior".
+Las fans a través de una suscripción de paga podrán contar con beneficios e información exclusiva de su banda favorita.
+En cuanto al diseño, se decidio el predominio del color azul por ser el color oficial del grupo. 
+
+### Prototipo en Figma:
+
+![Prototipo](https://ibb.co/hK1BBDz)
+
 ## Índice
 
 * [1. Preámbulo](#1-preámbulo)

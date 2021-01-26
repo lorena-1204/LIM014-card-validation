@@ -16,10 +16,16 @@ header{
 .container-first{
     background: url("/src/assets/imagenes/sj_15años_1.webp");
     width: 100%;
-    height:550px;
+    height:650px;
     background-size: cover;   
     margin-bottom: 70px; 
-    padding-top: 50px;
+    padding-top: 30px;
+}
+audio{
+    width: 300px;
+    height: 50px;
+    display: inherit;
+    outline: none;
 }
 .title{
     color:#5374b7;
@@ -45,7 +51,9 @@ h1{
     font-size: 24px;
     text-align: center ;
     margin-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
 .form-card{
     background-image: url("/src/assets/imagenes/dibu.webp");
     background-size: 50%;
@@ -59,15 +67,13 @@ h1{
     margin-right: auto;
     max-width: 100%; /*permite que la imagen sean responsive*/
     padding:30px;
-    font-weight: bold;
 }
-form> div > input {
+form > div > input {
     border: 1px;
     background: rgb(224, 220, 220);
     border-radius: 10px;
     margin-left: 0px;
     margin-bottom: 1em;
-    font-size: 1em;
     display: block; 
     width: 400px;
     height: 40px;
@@ -87,13 +93,27 @@ label{
 } 
 
 .boton{
-    background-color: blue;
-    color: white;
+    background-color:rgb(144, 84, 240);
+    border: 3px solid darkblue;
+    color: rgb(255, 255, 255);
     width: 150px;
     height: 40px;
     outline: none;
     border-radius: 25px;
     font-size: 24px;
+}
+
+#validar:hover{
+    background-color:rgb(9, 255, 0); 
+    color:black;
+    font-family:  monospace;
+}
+
+#user{
+    text-transform: uppercase;
+    text-align: center;
+    margin:25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -105,9 +125,7 @@ label{
     background-color: rgb(255, 255, 255);
     width: 550px;
     height: 400px;
-    background-size: cover;
-    color: black;
-    font-size: 22px;
+    
 }
 .correct{
     width: 150px;
@@ -144,13 +162,10 @@ a{
     margin-left: 50px;
     margin-top: 20px;
 }
+/*otros detalles*/
 .ocultar{
     display: none;
 }
 .mostrar{
     display:block;
 }
-
-
-
-
