@@ -3,7 +3,7 @@
 }
 /*Encabezado, logo y menu*/
 header{
-    background-image: url("/src/assets/imagenes/logo.png");
+    background-image: url("./assets/imagenes/logo.png");
     background-size: 23%;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -14,13 +14,14 @@ header{
 
 /*página de inicio */
 .container-first{
-    background: url("/src/assets/imagenes/sj_15años_1.webp");
+    background: url("./assets/imagenes/sj_15años_1.webp");
     width: 100%;
     height:650px;
     background-size: cover;   
     margin-bottom: 70px; 
     padding-top: 30px;
 }
+
 audio{
     width: 300px;
     height: 50px;
@@ -55,7 +56,7 @@ h1{
 }
 
 .form-card{
-    background-image: url("/src/assets/imagenes/dibu.webp");
+    background-image: url("./assets/imagenes/dibu.webp");
     background-size: 50%;
     background-position: right bottom;
     background-repeat: no-repeat;
@@ -80,7 +81,6 @@ form > div > input {
     outline: none; 
     font-size: 15px;
     text-align: center;
-    
 }
 label{
     font-size: 18px;
@@ -119,13 +119,12 @@ label{
 
 /*Tarjeta válida*/
 .container-finish{
-    background: url(/src/assets/gif/light.gif); 
+    background: url(./assets/gif/light.gif); 
     background-position: center center;
     background-repeat: no-repeat;
     background-color: rgb(255, 255, 255);
     width: 550px;
     height: 400px;
-    
 }
 .correct{
     width: 150px;
