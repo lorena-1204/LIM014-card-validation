@@ -1,0 +1,172 @@
+*{
+    margin: auto;
+}
+/*Encabezado, logo y menu*/
+header{
+    background-image: url("/src/assets/imagenes/logo.png");
+    background-size: 23%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: darkblue;
+    width: 100%;
+    height: 125px;
+}
+
+/*página de inicio */
+.container-first{
+    background: url("/src/assets/imagenes/sj_15años_1.webp");
+    width: 100%;
+    height:650px;
+    background-size: cover;   
+    margin-bottom: 70px; 
+    padding-top: 30px;
+}
+audio{
+    width: 300px;
+    height: 50px;
+    display: inherit;
+    outline: none;
+}
+.title{
+    color:#5374b7;
+    font-size: 50px;
+    font-family: 'Lobster', cursive;
+    text-align: center; 
+}
+.parrafo{
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/*página de Suscripvión - tarjeta de credito*/
+.conteiner-second{
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+
+h1{
+    font-size: 24px;
+    text-align: center ;
+    margin-bottom: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-card{
+    background-image: url("/src/assets/imagenes/dibu.webp");
+    background-size: 50%;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 300px;
+    border: 3px solid darkblue;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%; 
+    padding:30px;
+}
+form > div > input {
+    border: 1px;
+    background: rgb(224, 220, 220);
+    border-radius: 10px;
+    margin-left: 0px;
+    margin-bottom: 1em;
+    display: block; 
+    width: 400px;
+    height: 40px;
+    outline: none; 
+    font-size: 15px;
+    text-align: center;
+    
+}
+label{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+}
+#date, #cvc{
+    width: 200px;
+    height: 35px;
+} 
+
+.boton{
+    background-color:rgb(144, 84, 240);
+    border: 3px solid darkblue;
+    color: rgb(255, 255, 255);
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border-radius: 25px;
+    font-size: 24px;
+}
+
+#validar:hover{
+    background-color:rgb(9, 255, 0); 
+    color:black;
+    font-family:  monospace;
+}
+
+#user{
+    text-transform: uppercase;
+    text-align: center;
+    margin:25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*Tarjeta válida*/
+.container-finish{
+    background: url(/src/assets/gif/light.gif); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 400px;
+    
+}
+.correct{
+    width: 150px;
+    height: 30px;
+    outline: none;
+    border:5px solid rgb(121, 121, 255);
+    border-radius: 5px;
+    text-align: center;
+    display: table;
+}
+
+footer{
+    background: darkblue;
+    height: 60px;
+}
+
+/* Enlaces: menú y pie de página*/
+a{
+    color:white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.menu{
+    display:inline-block; 
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.redes{
+    display:inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+/*otros detalles*/
+.ocultar{
+    display: none;
+}
+.mostrar{
+    display:block;
+}
